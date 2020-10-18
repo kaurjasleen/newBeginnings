@@ -4,3 +4,8 @@
   height: 300px;
   object-fit: fill;
 }
+
+.btn-style {
+    color: white;
+    background-color: #7E8E65 !important;
+}

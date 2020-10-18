@@ -1,8 +1,13 @@
 .teamForm{
     width:50%;
-    margin: 0 auto;
+    margin:auto;
     padding: 18px;
     border: 2px solid grey;
     border-radius: 10px;
+    background-color: white;
 
+}
+
+.btn-style {
+    background-color: #7E8E65 !important;
 }

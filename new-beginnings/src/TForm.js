@@ -169,7 +169,7 @@ class TForm extends React.Component {
 
           <Form.Group as={Row}>
             <Col sm={{ span: 0, offset: 2 }}>
-              <Button type="submit">Submit</Button>
+              <Button className="btn-style" type="submit">Submit</Button>
             </Col>
           </Form.Group>
         </Form>
