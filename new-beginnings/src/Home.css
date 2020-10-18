@@ -1,4 +1,21 @@
-.jumbotron {
-  color: rgb(123, 123, 202);
-  height: 400vh;
+.hero-container {
+  background: gray;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: white;
+  font-size: 100px;
+  margin-top: 300px;
+}
+
+.hero-container > p {
+  margin-top: 0px;
+  color: white;
+  font-size: 20px;
 }
