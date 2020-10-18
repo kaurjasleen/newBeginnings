@@ -1,6 +1,8 @@
 .list-group-item {
-  height: 50vh;
+  height: 54vh;
   margin-left: 20px;
+  margin-top: 40px;
+  background-image: url("./images/4.png");
 }
 
 .featurette-heading {
@@ -9,5 +11,6 @@
   font-weight: 250;
   line-height: 1;
   letter-spacing: -0.05rem;
-  color: #5a5a5a;
+  color: #fefab4;
+  /* color: #e7d7c0; */
 }

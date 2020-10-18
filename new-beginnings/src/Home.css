@@ -19,3 +19,11 @@
   color: white;
   font-size: 20px;
 } */
+
+.hero-image {
+  background-size: 100%;
+  background-position: relative;
+  height: 800px;
+  background-image: url("images/home.png");
+  object-fit: contain;
+}
