@@ -4,9 +4,11 @@ import CardItem from './CardItem';
 
 import './PrevSubmissions.css';
 
+const image1="https://i.pinimg.com/originals/de/f7/21/def7210d0eb8f98ca7c7459f952c4018.jpg"
+
 function PrevSubmissions() {
   return (
-
+    <div className="container">
     <ul className="list-group list-group-flush">
       <li className="list-group-item">
           <h4 class="featurette-heading">Web Development</h4>
@@ -80,7 +82,7 @@ function PrevSubmissions() {
           </div>
       </li>
     </ul>
-
+    </div>
   );
 }
 
