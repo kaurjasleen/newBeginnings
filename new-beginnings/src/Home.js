@@ -3,9 +3,9 @@ import { Parallax } from 'react-parallax';
 import './Home.css';
 
 const image1="https://i.imgur.com/xHGk91K.png"
-const image2="https://i.imgur.com/Mu8NwCq.png"
-const image3="https://i.imgur.com/NFALSQx.png"
-const image4="https://i.imgur.com/jT8xF5q.png"
+const image2="https://i.imgur.com/qRbx0Gf.png"
+const image3="https://i.imgur.com/4RsuzSH.png"
+const image4="https://i.imgur.com/14qFI8q.png"
 
 function Home() {
   return (
