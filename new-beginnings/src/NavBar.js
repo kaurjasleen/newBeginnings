@@ -21,7 +21,6 @@ class NavBar extends Component {
         <Link to='/TeamForm' className="nav-link">Find your Teammates!</Link>
         <Link to='/HowToGetStarted' className="nav-link">How To Get Started</Link>
         <Link to='/PrevSubmissions' className="nav-link">Previous Submissions</Link>
-        <Link to='/CardInfo' className="nav-link">Card Info</Link>
       </Nav>
     </Navbar>
   </div>

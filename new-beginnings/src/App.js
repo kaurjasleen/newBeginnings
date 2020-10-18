@@ -17,7 +17,6 @@ function App() {
             <TeamForm path='/TeamForm'/>
             <HowToGetStarted path='/HowToGetStarted'/>
             <PrevSubmissions path='/PrevSubmissions'/>
-            <CardInfo path='/CardInfo'/>
         </Router>
     </div>
   );

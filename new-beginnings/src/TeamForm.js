@@ -4,7 +4,7 @@ import "./TeamForm.css";
 
 function TeamForm() {
   return (
-    <div>
+    <div className="bckgrnd">
         <div className="formTitle">
             Find your future teammates!
         </div>

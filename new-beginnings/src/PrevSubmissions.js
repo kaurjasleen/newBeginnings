@@ -10,7 +10,7 @@ function PrevSubmissions() {
     <ul className="list-group list-group-flush">
       <li className="list-group-item">
           <h4 class="featurette-heading">Web Development</h4>
-        <div className='cards__wrapper d-flex justify-content-center bd-highlight mb-3' >
+        <div className='cards__wrapper d-flex flex-row bd-highlight mb-3' >
             <div class="p-2 bd-highlight">
               <CardItem
               src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAXVBMVEU6VZ////81Up0vTZwyT5xgc61+jbuXo8hFXaOirM0nSJmlrs7O1OUkRpkfQ5f29/q3v9iHlcDV2umvt9RoerJxgrbd4Ozp6/PHzeHByN5YbatQZ6h2hrhMY6aQnMSGvE5JAAAC3UlEQVR4nO3cWZKjMBBFUVrIEzZ4nqt6/8usqP5vLJDlfEncuwCCE0ZmkKCqiIiIiIiIiIiIiIiIiIjUCyHG+kXReidHF+u2q2Zf+8Wqt/XeJ7Fuw/l4+ZPSobHe2eHFJi4OSbrfNu6EsT3fknkOhbGbX4f4vAlDdx7ocyasq0HHpz9hNx/u8yQMzX0M0I8wLgePQF/C+rEdB/QirE8jfV6EcTzQhzA+xwNdCEM1dgx6EXZpNxF+he0uB+hAGL+ygA6Ebc4g9CDMPEb1heGRCZQXdumPK3wKwywXqC5sNxMXhpzLNRfC5jh1Ye65UF4Yz/lAbWGTe7aXF7YjH824EYblG4DSwrh/h1B57qkeMgy3h93a3fxhk35Nejs1TeNvDrhLPRten22w3tlRxUTgrvPpq8J3GvDeWe/p2BLvnC5uganCpdNDtEoVHoVPd69KEzr+CdOEl9Z6NzNKEh5r693MKEmofE32siThHKFyCBHqhxChfggR6ocQoX4IEeqHEKF+CBHqNw1h6HlFuUlZWvrVvnrT2Rh4WvS0ThDu+jbw28pWWKcgMrOdffuAcGs7RfwBofH02weE98kfpWvbP9MPCPeTF55s5/k/IPyeunBrfE1TXng1XjFVXrgxXo1SXrgzXjJVXriY/Di0vn8sL3wYL3srL7R+BFBcuLVem1lceLVeulhceJv8b2i+OLO48O/k/2nOkxc+rVeBFxdaD8PiQut7p/JC+3cPSwuNHyV+QLia/Di0f1ehtHBmfbIoLrT2FRdaP0osLzS/dyouFPjYQP2Gr7P0tLM/Sqtq2VPK5yDnfVuwxv0r/L+YtNqk7tmCNe5V01hP0xdChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUSoH0KE+iFEqB9ChPohRKgfQoT6IUQ4oB9urELQFCwKGgAAAABJRU5ErkJggg=='
@@ -33,7 +33,7 @@ function PrevSubmissions() {
       </li>
       <li className="list-group-item">
         <h4 class="featurette-heading">Mobile Development</h4>
-        <div className='cards__wrapper d-flex justify-content-center bd-highlight mb-3' >
+        <div className='cards__wrapper d-flex flex-row bd-highlight mb-3' >
             <div class="p-2 bd-highlight">
               <CardItem
               src='data:image/png;base64,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'
@@ -57,7 +57,7 @@ function PrevSubmissions() {
       </li>
       <li className="list-group-item">
       <h4 class="featurette-heading">Data Science</h4>
-      <div className='cards__wrapper d-flex justify-content-center bd-highlight mb-3' >
+      <div className='cards__wrapper d-flex flex-row bd-highlight mb-3' >
             <div class="p-2 bd-highlight">
               <CardItem
               src='https://www.census.gov/programs-surveys/decennial-census/2020-census/planning-management/promo-print-materials/agreement/_jcr_content/par/textimage.textthumbnail.png/1583616197573.png'
