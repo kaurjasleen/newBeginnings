@@ -22,7 +22,7 @@ function Home() {
       <Parallax bgImage={image1} strength={10}>
         <div style={{height:735}}>
         </div>
-      </Parallax> 
+      </Parallax>
       <h1>  </h1>
       <Parallax bgImage={image2} strength={0}>
         <div style={{height:725}}>
@@ -37,7 +37,7 @@ function Home() {
         <div style={{height:800}}>
         </div>
       </Parallax>
-      
+
     </div>
 
   );
