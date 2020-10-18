@@ -1,11 +1,14 @@
 .list-group-item {
-  height: 50vh;
+  height: 20%;
   margin-left: 20px;
+  background-color: rgba(58, 36, 26, 0.4) !important;
+  border-radius: 5px;
 }
 
 .featurette-heading {
-  margin-top: 3px;
-  font-size: 10;
+  margin-top: 25px  !important;
+  margin-bottom: 10px  !important;
+  font-size: 35px !important;
   font-weight: 250;
   line-height: 1;
   letter-spacing: -0.05rem;

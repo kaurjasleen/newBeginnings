@@ -15,24 +15,24 @@ function Home() {
     // </div>
 
     <div className="Home">
-      <Parallax bgImage={image1} strength={130}>
+      <Parallax bgImage={image1} strength={0}>
         <div style={{height:800}}>
         </div>
       </Parallax>
       <h1>  </h1>
-      <Parallax bgImage={image2} strength={130}>
+      <Parallax bgImage={image2} strength={0}>
         <div style={{height:800}}>
         </div>
       </Parallax>
-      <Parallax bgImage={image3} strength={200}>
+      <Parallax bgImage={image3} strength={0}>
         <div style={{height:800}}>
         </div>
       </Parallax>
-      <Parallax bgImage={image4} strength={200}>
+      <Parallax bgImage={image4} strength={0}>
         <div style={{height:800}}>
         </div>
       </Parallax>
-      
+
     </div>
 
   );

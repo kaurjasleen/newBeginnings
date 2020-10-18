@@ -7,5 +7,7 @@
 
 .btn-style {
     color: white;
-    background-color: #7E8E65 !important;
+    background-color: rgba(228, 157, 19, 0.6) !important;
 }
+
+.rss.opacity { filter: opacity(85%); }
