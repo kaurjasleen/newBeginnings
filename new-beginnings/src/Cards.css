@@ -1,3 +1,7 @@
-.cards__item__pic-wrap {
-  width: 100px;
+.card {
+  width: 80%;
+  margin-left: 40px;
+}
+
+.img {
 }
