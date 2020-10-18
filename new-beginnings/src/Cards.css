@@ -1,4 +1,6 @@
 .card {
-  width: 80%;
+  width: 200px;
   margin-left: 40px;
+  height: 200px;
+  object-fit: fill;
 }

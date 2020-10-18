@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from '@reach/router';
 import { Navbar, Nav } from 'react-bootstrap';
-import logo from './images/newbeg3.png';
+import logo from './images/1.png';
 import './NavBar.css'
 
 class NavBar extends Component {
@@ -9,7 +9,7 @@ class NavBar extends Component {
     return (
         <div>
     <Navbar className="color-nav" variant="light">
-      <Navbar.Brand src={logo} href="/"> <img
+      <Navbar.Brand src={logo} style={{"object-fit":"fill"}} href="/"> <img
         src={logo}
         width="120"
         height="70"
