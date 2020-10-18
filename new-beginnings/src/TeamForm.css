@@ -1,8 +1,14 @@
-.teamForm{
-    width:50%;
-    margin: 30px auto;
-    padding: 30px;
-    border: 2px solid grey;
-    border-radius: 10px;
+/* css file for Team Form page */
 
+.formTitle{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.disclaimerTxt{
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5px;
+    width:50%;
 }
