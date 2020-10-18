@@ -14,10 +14,6 @@ class NavBar extends Component {
         <Link to='/HowToGetStarted' className="nav-link">How To Get Started</Link>
         <Link to='/PrevSubmissions' className="nav-link">Previous Submissions</Link>
       </Nav>
-      <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-primary">Search</Button>
-      </Form>
     </Navbar>
   </div>
     );
