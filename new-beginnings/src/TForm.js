@@ -33,10 +33,11 @@ class TForm extends React.Component {
   }
 
   handleSubmit(event) {
-    alert("Your favorite flavor is: " + this.state.name);
+    alert("Thank you " + this.state.name + "! You will soon receive an email containing the contact information of your teammates.");
     console.log(this.state);
     event.preventDefault();
   }
+
   render() {
     return (
       <div className="teamForm">
