@@ -1,4 +1,5 @@
 .list-group-item {
   height: 50vh;
-  margin-left: 40px;
+  margin-left: 20px;
+  background-image: url("./images/brunch.png");
 }

@@ -5,7 +5,6 @@ import NavBar from './NavBar';
 import HowToGetStarted from './HowToGetStarted';
 import TeamForm from './TeamForm';
 import PrevSubmissions from './PrevSubmissions';
-import CardInfo from './CardInfo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
             <TeamForm path='/TeamForm'/>
             <HowToGetStarted path='/HowToGetStarted'/>
             <PrevSubmissions path='/PrevSubmissions'/>
-            <CardInfo path='/CardInfo'/>
         </Router>
     </div>
   );
