@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Router, navigate } from '@reach/router';
+import { Router } from '@reach/router';
 import Home from './Home';
 import NavBar from './NavBar';
 import HowToGetStarted from './HowToGetStarted';
@@ -16,6 +15,7 @@ function App() {
             <Home path='/'/>
             <TeamForm path='/TeamForm'/>
             <HowToGetStarted path='/HowToGetStarted'/>
+            <PrevSubmissions path='/PrevSubmissions'/>
         </Router>
 
     </div>
