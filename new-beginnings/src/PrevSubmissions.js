@@ -1,5 +1,7 @@
 import React from 'react';
+import './Cards.css'
 import CardItem from './CardItem';
+
 import './PrevSubmissions.css';
 
 function PrevSubmissions() {
@@ -23,9 +25,6 @@ function PrevSubmissions() {
       <h1>Data Science</h1>
       </li>
     </ul>
-    // <>
-    //   
-    // </>
 
 
 
