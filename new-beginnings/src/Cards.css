@@ -1,3 +1,4 @@
-.cards__items {
-  height: 1vh;
+.card {
+  width: 80%;
+  margin-left: 40px;
 }

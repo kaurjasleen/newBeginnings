@@ -6,28 +6,79 @@ import './PrevSubmissions.css';
 
 function PrevSubmissions() {
   return (
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">
+    <ul className="list-group list-group-flush">
+      <li className="list-group-item">
         <h1>Web Development</h1>
-        <div className='cards__wrapper'>
-            <ul className='cards__items'>
+        <div className='cards__wrapper d-flex flex-row bd-highlight mb-3' >
+            <div class="p-2 bd-highlight">
               <CardItem
               src='https://img.icons8.com/material/4ac144/256/twitter.png'
               text='Virtual Closet'
               />
-            </ul>
+            </div>
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
           </div>
       </li>
-      <li class="list-group-item">
+      <li className="list-group-item">
         <h1>Mobile Development</h1>
+        <div className='cards__wrapper d-flex flex-row bd-highlight mb-3' >
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            
+          </div>
       </li>
-      <li class="list-group-item">
+      <li className="list-group-item">
       <h1>Data Science</h1>
+      <div className='cards__wrapper d-flex flex-row bd-highlight mb-3' >
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            <div class="p-2 bd-highlight">
+              <CardItem
+              src='https://img.icons8.com/material/4ac144/256/twitter.png'
+              text='Virtual Closet'
+              />
+            </div>
+            
+          </div>
       </li>
     </ul>
-
-
-
 
   );
 }

@@ -3,16 +3,17 @@ import './Cards.css'
 
 function CardItem(props) {
     return (
-        <>
-            <li className='cards__item'>
-                    <figure className='cards__item__pic-wrap'>
-                        <img src={props.src} alt='Project Image' className='cards__item__img'/>
-                    </figure>
-                    <div className='cards__item__info'>
-                        <h5 className='cards__item__text'>{props.text}</h5>
-                    </div>
-            </li>
-        </>
+
+        
+            <div class="card text-center">
+                <img class="card-img-top" src={props.src} alt="Card image"></img>
+                <div class="card-body text-right">
+                    <h5 class="card-title text-left">{props.text}</h5>
+                    <a href="#" class="btn btn-primary ">More</a>
+                </div>
+            </div>
+
+           
     )
 }
 
