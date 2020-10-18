@@ -9,26 +9,31 @@ const image4="https://i.imgur.com/jT8xF5q.png"
 
 function Home() {
   return (
-    // <div className='hero-container'>
-    //     <h1> New Beginnings </h1>
-    //     <p>Believe In Yourself and What You Are Capable Of</p>
-    // </div>
+
 
     <div className="Home">
-      <Parallax bgImage={image1} strength={0}>
-        <div style={{height:800}}>
+        {/* <div className='hero-image'>
+          <h1> New Beginnings </h1>
+          <p>Believe In Yourself and What You Are Capable Of</p>
+        </div> */}
+
+
+
+      <Parallax bgImage={image1} strength={10}>
+        <div style={{height:735}}>
         </div>
       </Parallax>
       <h1>  </h1>
       <Parallax bgImage={image2} strength={0}>
-        <div style={{height:800}}>
+        <div style={{height:725}}>
         </div>
       </Parallax>
-      <Parallax bgImage={image3} strength={0}>
-        <div style={{height:800}}>
+      <h1>  </h1>
+      <Parallax bgImage={image3} strength={100}>
+        <div style={{height:725}}>
         </div>
       </Parallax>
-      <Parallax bgImage={image4} strength={0}>
+      <Parallax bgImage={image4} strength={120}>
         <div style={{height:800}}>
         </div>
       </Parallax>
