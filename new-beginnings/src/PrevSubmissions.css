@@ -2,3 +2,12 @@
   height: 50vh;
   margin-left: 40px;
 }
+
+.featurette-heading {
+    margin-top: 3px;
+  font-size: 10;
+  font-weight: 250;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  color: #5a5a5a
+}
